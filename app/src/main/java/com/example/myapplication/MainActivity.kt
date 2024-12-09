@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = adapter
 
         fab.setOnClickListener {
-            showAddToDoDialog()
+            showAddToDoDialog() //Help
         }
     }
 
