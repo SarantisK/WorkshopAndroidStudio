@@ -4,10 +4,10 @@
    Ziel:
    Ermögliche es Nutzern, eine Aufgabe zu löschen, indem sie lange auf den Eintrag drücken.
 
-    Hinweise:
+    `Hinweise:
         Füge im Adapter einen setOnLongClickListener für die Aufgabe hinzu.
         Entferne den Eintrag aus der Liste und aktualisiere den RecyclerView mit notifyItemRemoved.
-        Zeige eine Bestätigung über eine Toast-Nachricht an.
+        Zeige eine Bestätigung über eine Toast-Nachricht an.`
 
 2. Sortierfunktion hinzufügen
    Ziel:
@@ -20,9 +20,9 @@
    Ziel:
    Zeige die Anzahl der offenen und erledigten Aufgaben in der Main Activity an.
    
-    Hinweise:
+    `Hinweise:
         Es müssen zwei TextView-Elemente erstellt werden, nur wo? 
-        Vergiss das Binding nicht :)
+        Vergiss das Binding nicht :)`
 
 
 4. Für die Richtig Krassen!!! 
@@ -45,6 +45,8 @@
 5. Teste doch mal deine APP auf deinem richtigen Smartphone
    (Falls iPhone: Geht nicht Womp Womp)
 
-   Hinweise:
+  ` Hinweise:
         DU musst den Entwicklermodus aktivieren.
-        Einfaches USB einstecken reicht idR nicht aus.
+        Einfaches USB einstecken reicht idR nicht aus.`
+  
+6. Fällt dir noch was ein? 
