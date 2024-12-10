@@ -17,7 +17,7 @@ Wenn du willst kannst du gerne auch einen Button hinzufügen für das Sortieren
 
 ### **3. Zähler für offene und erledigte Aufgaben** 
 
-####    Ziel:Zeige die Anzahl der offenen und erledigten Aufgaben in der Main Activity an.
+Ziel: Zeige die Anzahl der offenen und erledigten Aufgaben in der Main Activity an.
    
         Hinweise:
             Es müssen zwei TextView-Elemente erstellt werden, nur wo? 
@@ -40,7 +40,6 @@ Ziel: Erweitere die App so, dass Aufgaben gespeichert und nach einem Neustart de
            Verwende am besten Gson für das Konvertieren zu JSON
 
 ### **5. Teste doch mal deine APP auf deinem richtigen Smartphone**
-
 (Falls iPhone: Geht nicht Womp Womp)
 
       Hinweise:
