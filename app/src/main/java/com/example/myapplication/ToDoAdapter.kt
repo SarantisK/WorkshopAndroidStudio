@@ -13,7 +13,8 @@ class ToDoAdapter(
     private val items: MutableList<ToDoItem>,
 
     // Callback, das aufgerufen wird, wenn sich der Zustand einer Aufgabe ändert
-    private val onItemCheckChanged: (Int, Boolean) -> Unit
+    private val onItemCheckChanged: (Int, Boolean) -> Unit,
+
 ) : RecyclerView.Adapter<ToDoAdapter.ToDoViewHolder>() {
 
     // Der ViewHolder hält die Referenzen auf die UI-Elemente für eine Aufgabe
@@ -40,7 +41,16 @@ class ToDoAdapter(
         // Reagiert, wenn die CheckBox geändert wird
         holder.checkBox.setOnCheckedChangeListener { _, isChecked ->
             onItemCheckChanged(position, isChecked)
+
         }
+
+        // AUFGABE 1 Lösung || Löschfunktion hinzufügen
+        holder.itemView.setOnLongClickListener {
+            items.removeAt(position)  // Entfernt die Aufgabe
+            notifyItemRemoved(position)  // Aktualisiert die Liste
+            true
+        }
+
     }
 
     // Gibt die Anzahl der Aufgaben zurück
